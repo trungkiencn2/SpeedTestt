@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="@dimen/muoi_lam_sp"
+        android:id="@+id/tv_title_frag_setting"
+        android:text="@string/app_name"
+        android:textColor="@color/color_text_tab_speed"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <TextView
+        android:textColor="@color/color_white"
+        android:id="@+id/tv_testing_frag_setting"
+        android:textSize="@dimen/muoi_lam_sp"
+        android:paddingLeft="@dimen/muoi_dp"
+        android:layout_below="@+id/tv_title_frag_setting"
+        android:text="@string/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linear_unit"
+        android:paddingLeft="@dimen/muoi_dp"
+        android:layout_marginTop="@dimen/muoi_dp"
+        android:layout_below="@+id/tv_testing_frag_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/muoi_lam_sp"
+            android:text="@string/unit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/cb_mbps_setting"
+            android:textColor="@color/color_white"
+            android:text="Mbps"
+            android:textSize="@dimen/muoi_lam_sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/cb_mbs_setting"
+            android:textColor="@color/color_white"
+            android:text="MB/s"
+            android:textSize="@dimen/muoi_lam_sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/cb_kbs_setting"
+            android:textColor="@color/color_white"
+            android:text="kB/s"
+            android:textSize="@dimen/muoi_lam_sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_option_setting"
+        android:layout_marginTop="@dimen/muoi_dp"
+        android:layout_below="@id/linear_unit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</RelativeLayout>

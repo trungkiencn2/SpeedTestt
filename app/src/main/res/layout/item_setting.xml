@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:paddingLeft="@dimen/muoi_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bon_muoi_dp">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/muoi_lam_sp"
+            android:id="@+id/tv_name_item_setting"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@drawable/ic_right_white"
+            android:layout_width="@dimen/muoi_lam_dp"
+            android:layout_height="@dimen/muoi_lam_dp" />
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

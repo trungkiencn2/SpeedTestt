@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_speed"
+        icon="@drawable/ic_ic_tab_speed"
+        title="@string/speed" />
+    <tab
+        id="@+id/tab_results"
+        icon="@drawable/ic_ic_tab_result"
+        title="@string/result" />
+    <tab
+        id="@+id/tab_tool"
+        icon="@drawable/ic_ic_tab_tool"
+        title="@string/tool" />
+    <tab
+        id="@+id/tab_setting"
+        icon="@drawable/ic_ic_tab_setting"
+        title="@string/setting" />
+</tabs>

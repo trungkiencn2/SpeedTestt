@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SPEEDTEST</string>
+    <string name="speed">Speed</string>
+    <string name="result">Result</string>
+    <string name="tool">Tool</string>
+    <string name="setting">Setting</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="unit">Unit</string>
+    <string name="about_speed_test">ABOUT SPEED TEST</string>
+    <string name="privacy_policy">PRIVACY POLICY</string>
+    <string name="terms_of_use">TERMS OF USE</string>
+    <string name="help">HELP</string>
+    <string name="give_us_feedback">GIVE US FEEDBACK</string>
+
+    <string name="about_speed_test_content">Speedtest by SkyAds is the definitive way to measure your internet performance. With
+    billions of tests to date, Speedtest is the dominant global leader in internet performance testing and metrics \n\nSpeedtest`s mission is to help build a better and
+    faster internet. The proven technology behind Speedtest is purpose-built for accurate and unbiased internet performance testing,
+    which empowers people all over the world to gauge and troubleshoot the speed of their internet connections \n\nAdChoices \n\nTo opt out of data collection
+    for targeted advertising purposes, you can change the settings for privacy and advertising on your device. In Android, go to Google Settings >
+    Ads. In iOS, go to Settings > Privacy > Advertising. If your device does not offer these settings, Speedtest will not collect data for targeted
+    advertising purposes.</string>
+
+    <string name="privacy_policy_content">Privacy policy
+    The privacy of the visitors to OpenSpeedtest.com is important to us.
+    The last update to our Privacy Policy was posted on July 01, 2016.  This document governs the privacy policy of our Website, OpenSpeedtest.com.  Any capitalized terms not defined herein will have the same meaning as where they are defined elsewhere on our Website.
+    Definitions
+    "Non-Personal Information" (NPI) is information that is in no way personally identifiable and that is obtained automatically when you access our Website with a web browser. "Personally Identifiable Information" (PII) is non-public information that is personally identifiable to you and obtained for us to provide you with a product or service. PII may include information such as your name, address, phone number, credit card information, and other related information that you provide to us.
+    Our Commitment to Your Privacy
+    Our Privacy Policy tells you what PII we may collect from you, how we may share your PII, and how you can limit our sharing of your PII.
+    OpenSpeedtest.com is committed to the security and privacy of all our visitors and customers. We take your privacy seriously, and we will work with you to ensure that you have an enjoyable online experience.
+    OpenSpeedtest.com and our affiliates respect your privacy and recognize the need for appropriate protection and management of your PII you share with us.
+    [OPTIONAL: As a part of our commitment, we have adopted the guidelines used by the Direct Marketing Association Privacy Promise to American consumers. Other than as necessary to provide you with goods and services, we agree to (1) provide our customers with notice of their ability to opt out of information exchanges with our affiliates; (2) honor our customers’ requests not to have their information transferred to our affiliates; and (3) honor our customers’ requests not to receive solicitations from our affiliates.]
+    Links to Other Websites
+    Our Website may contain links to other websites. You understand that these websites are not under our control and are not subject to our Privacy Policy. These websites will likely have their own privacy policies. We have no responsibility for these websites and provide links to these websites solely for your convenience.
+    You acknowledge that your use and access of these websites is solely at your own risk. It is your responsibility to check the privacy policies of these websites to see how they treat your personal information.</string>
+
+    <string name="terms_of_use_content">SPEEDTEST TERMS AND CONDITIONS \n\nYou acknowledge that the Services contain information, software, articles, reviews, content, photographs, audio and video clips, graphics, links, logos, trademarks, the “look and feel” of our websites, applications and software and other material (collectively, the “Content”) that are protected by copyright, trademark and/or other proprietary rights of Ziff Davis or third parties. All Content on the Services is protected by applicable copyright laws. You agree to comply with all copyright laws and any copyright notices, information, or restrictions contained in any Content available on or accessed through the Services. Users of the Services may use the Content only for their personal, noncommercial use. Businesses, organizations or other legal entities may not become Members, and are not permitted to use the Services for any purpose, including but not limited to collecting usernames and/or email addresses of Members by electronic or other means for the purpose of sending unsolicited email and unauthorized framing of, or linking to, the Services or users on the Services. Please refer to our Linking Policy for more information on linking and use of Content.</string>
+
+    <string name="help_one">What is "ping", "download speed", and "upload speed"?</string>
+    <string name="help_two">How does the test itself work? How is the result calculated?</string>
+    <string name="help_three">How do I start a speed test?</string>
+    <string name="help_four">What do mbps and kbps mean?</string>
+    <string name="help_five">What speeds do I need for Skype, Netflix, video games, etc.?</string>
+    <string name="help_six">Using Speedtest.net with an ad blocker</string>
+
+    <string name="ping">Ping</string>
+    <string name="jitter">Jitter</string>
+    <string name="loss">Loss</string>
+
+    <string name="definitions">Definitions</string>
+    <string name="our_commitment_to_your_privacy">Our Commitment to Your Privacy</string>
+    <string name="links_to_other_websites">Links to Other Websites</string>
+    <string name="speedtest_terms_conditions">SPEEDTEST TERMS AND CONDITIONS</string>
+    <string name="linking_policy">Linking Policy</string>
+    <string name="give_us_feedback_hint">Give us feedback</string>
+    <string name="subject_of_email">Subject of email</string>
+    <string name="no_connection">No connection</string>
+    <string name="send">Send</string>
+    <string name="share_mail">Speedtest is the definitive way to measure your internet performance. With billions of active users, speedtest is the dominant global leader in measuring and measuring Internet performance</string>
+    <string name="testing">Testing</string>
+    <string name="running">The program is still running</string>
+    <string name="download_error">Download error...</string>
+    <string name="upload_error">Upload error...</string>
+    <string name="ping_error">Ping error...</string>
+    <string name="looking_for_server">Internet...</string>
+</resources>

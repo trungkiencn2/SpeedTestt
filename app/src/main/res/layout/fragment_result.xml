@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/color_bg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:textSize="@dimen/muoi_lam_sp"
+            android:id="@+id/tv_title_frag_result"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_tab_speed"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/img_delete_frag_result"
+            android:src="@drawable/ic_delete_white"
+            android:layout_toLeftOf="@id/img_share_frag_result"
+            android:layout_width="@dimen/hai_muoi_dp"
+            android:layout_height="@dimen/hai_muoi_dp" />
+
+        <ImageView
+            android:layout_marginLeft="@dimen/muoi_dp"
+            android:layout_marginRight="@dimen/muoi_dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/img_share_frag_result"
+            android:src="@drawable/ic_upload_result"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/hai_muoi_dp"
+            android:layout_height="@dimen/hai_muoi_dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_text_tab_speed"
+            android:gravity="center"
+            android:text="@string/type"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_date_frag_result"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_white"
+            android:gravity="center"
+            android:text="@string/date"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_speed_download"
+                android:layout_width="@dimen/muoi_lam_dp"
+                android:layout_height="@dimen/muoi_lam_dp" />
+
+            <TextView
+                android:id="@+id/tv_download_frag_result"
+                android:layout_marginLeft="@dimen/nam_dp"
+                android:textSize="@dimen/muoi_hai_sp"
+                android:gravity="center"
+                android:textColor="@color/color_text_tab_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_speed_upload"
+                android:layout_width="@dimen/muoi_lam_dp"
+                android:layout_height="@dimen/muoi_lam_dp" />
+
+            <TextView
+                android:id="@+id/tv_upload_frag_result"
+                android:layout_marginLeft="@dimen/nam_dp"
+                android:textSize="@dimen/muoi_hai_sp"
+                android:gravity="center"
+                android:textColor="@color/color_text_tab_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_ping_frag_result"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_text_tab_speed"
+            android:gravity="center"
+            android:text="@string/ping"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

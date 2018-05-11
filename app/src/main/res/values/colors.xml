@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6a6c78</color>
+    <color name="colorPrimaryDark">#0f0d1a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_bg">#0f0d1a</color>
+    <color name="color_bg_bottombar">#1f2130</color>
+    <color name="color_divider">#696b77</color>
+    <color name="color_text_tab_speed">#6a6c78</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_indicator">#6d6c72</color>
+    <color name="color_transparent">#00ffffff</color>
+</resources>

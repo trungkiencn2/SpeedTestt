@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:textSize="@dimen/muoi_lam_sp"
+            android:id="@+id/tv_title_frag_result"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_tab_speed"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <ImageView
+            android:layout_marginLeft="@dimen/muoi_dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/img_back_fragment_about_speed_test"
+            android:src="@drawable/ic_back_white"
+            android:layout_width="@dimen/hai_muoi_dp"
+            android:layout_height="@dimen/hai_muoi_dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_about_speed_test_content"
+            android:text="@string/about_speed_test_content"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:paddingRight="@dimen/ba_muoi_dp"
+            android:paddingLeft="@dimen/ba_muoi_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+</LinearLayout>

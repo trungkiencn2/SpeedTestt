@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SPEEDTEST</string>
+    <string name="speed">Tốc độ</string>
+    <string name="result">Kết quả</string>
+    <string name="tool">Dụng cụ</string>
+    <string name="setting">Cài đặt</string>
+    <string name="type">Loại</string>
+    <string name="date">Ngày</string>
+    <string name="unit">Đơn vị</string>
+    <string name="about_speed_test">GIỚI THIỆU SPEED TEST</string>
+    <string name="privacy_policy">CHÍNH SÁCH BẢO MẬT</string>
+    <string name="terms_of_use">ĐIỀU KHOẢN SỬ DỤNG</string>
+    <string name="help">GIÚP ĐỠ</string>
+    <string name="give_us_feedback">GỬI LẠI CHO CHÚNG TÔI PHẢN HỒI</string>
+
+    <string name="about_speed_test_content">Speedtest bởi SkyAds là cách dứt khoát để đo lường hiệu suất internet của bạn. Với hàng tỷ thử nghiệm cho đến nay, Speedtest là nhà lãnh đạo toàn cầu thống trị trong kiểm tra và chỉ số hiệu năng trên Internet \n\nMục tiêu của Speedtest là giúp xây dựng tốt hơn và Internet nhanh hơn. Công nghệ đã được chứng minh đằng sau Speedtest là mục đích được xây dựng để kiểm tra hiệu suất internet chính xác và không thiên vị,
+         cho phép mọi người trên khắp thế giới đánh giá và khắc phục sự cố tốc độ kết nối internet của họ \n\nAdChoices \n\nĐể chọn không tham gia thu thập dữ liệu
+         cho mục đích quảng cáo được nhắm mục tiêu, bạn có thể thay đổi cài đặt cho quyền riêng tư và quảng cáo trên thiết bị của mình. Trong Android, truy cập Cài đặt Google >
+         Quảng cáo. Trong iOS, chuyển đến Cài đặt > Bảo mật > Quảng cáo. Nếu thiết bị của bạn không cung cấp các cài đặt này, Speedtest sẽ không thu thập dữ liệu cho mục tiêu
+         mục đích quảng cáo.</string>
+
+    <string name="privacy_policy_content">Chính sách bảo mật \nQuyền riêng tư của khách truy cập vào OpenSpeedtest.com rất quan trọng đối với chúng tôi.
+         Bản cập nhật cuối cùng cho Chính sách bảo mật của chúng tôi đã được đăng vào ngày 01 tháng 7 năm 2016. Tài liệu này điều chỉnh chính sách bảo mật của Trang web của chúng tôi, OpenSpeedtest.com. Bất kỳ thuật ngữ viết hoa nào không được định nghĩa trong tài liệu này sẽ có cùng ý nghĩa như chúng được định nghĩa ở đâu đó trên trang web của chúng tôi.
+    Các định nghĩa
+         "Thông tin phi cá nhân" (NPI) là thông tin không thể nhận dạng cá nhân và được lấy tự động khi bạn truy cập trang web của chúng tôi bằng trình duyệt web. "Thông tin nhận dạng cá nhân" (PII) là thông tin không công khai có thể nhận dạng cá nhân đối với bạn và thu được để chúng tôi cung cấp cho bạn một sản phẩm hoặc dịch vụ. PII có thể bao gồm thông tin như tên, địa chỉ, số điện thoại, thông tin thẻ tín dụng và các thông tin liên quan khác mà bạn cung cấp cho chúng tôi.
+    Cam kết của chúng tôi đối với quyền riêng tư của bạn
+         Chính sách bảo mật của chúng tôi cho bạn biết PII nào chúng tôi có thể thu thập từ bạn, cách chúng tôi có thể chia sẻ PII của bạn và cách bạn có thể giới hạn việc chia sẻ PII của bạn.
+         OpenSpeedtest.com cam kết bảo mật và quyền riêng tư của tất cả khách truy cập và khách hàng của chúng tôi. Chúng tôi rất coi trọng quyền riêng tư của bạn và chúng tôi sẽ làm việc với bạn để đảm bảo rằng bạn có trải nghiệm trực tuyến thú vị.
+         OpenSpeedtest.com và các chi nhánh của chúng tôi tôn trọng quyền riêng tư của bạn và nhận ra sự cần thiết phải bảo vệ và quản lý thích hợp PII của bạn mà bạn chia sẻ với chúng tôi.
+         [TÙY CHỌN: Là một phần trong cam kết của chúng tôi, chúng tôi đã áp dụng các nguyên tắc được Hiệp hội tiếp thị trực tiếp bảo mật cho người tiêu dùng Mỹ sử dụng. Ngoài việc cần thiết để cung cấp cho bạn hàng hóa và dịch vụ, chúng tôi đồng ý (1) cung cấp cho khách hàng của chúng tôi thông báo về khả năng chọn không tham gia trao đổi thông tin với các chi nhánh của chúng tôi; (2) tôn trọng các yêu cầu của khách hàng không được chuyển thông tin của họ đến các chi nhánh của chúng tôi; và (3) tôn trọng các yêu cầu của khách hàng của chúng tôi không nhận được sự lôi kéo từ các chi nhánh của chúng tôi.]
+         Liên kết đến các trang web khác
+         Trang web của chúng tôi có thể chứa các liên kết đến các trang web khác. Bạn hiểu rằng các trang web này không thuộc quyền kiểm soát của chúng tôi và không tuân theo Chính sách bảo mật của chúng tôi. Những trang web này có thể sẽ có chính sách bảo mật riêng của họ. Chúng tôi không chịu trách nhiệm đối với các trang web này và chỉ cung cấp liên kết đến các trang web này để thuận tiện cho bạn.
+         Bạn thừa nhận rằng việc bạn sử dụng và truy cập các trang web này hoàn toàn chịu rủi ro. Bạn có trách nhiệm kiểm tra các chính sách bảo mật của các trang web này để xem cách họ xử lý thông tin cá nhân của bạn.</string>
+
+    <string name="terms_of_use_content">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN TỐC ĐỘ \n\nBạn xác nhận rằng Dịch vụ chứa thông tin, phần mềm, bài viết, bài đánh giá, nội dung, ảnh, clip âm thanh và video, đồ họa, liên kết, biểu tượng, nhãn hiệu, "giao diện" của trang web, ứng dụng và phần mềm và tài liệu khác (gọi chung là “Nội dung”) được bảo vệ bởi bản quyền, nhãn hiệu và / hoặc các quyền sở hữu khác của Ziff Davis hoặc các bên thứ ba. Tất cả Nội dung trên Dịch vụ được bảo vệ bởi luật bản quyền hiện hành. Bạn đồng ý tuân thủ tất cả luật bản quyền và mọi thông báo bản quyền, thông tin hoặc hạn chế có trong bất kỳ Nội dung nào có sẵn trên hoặc truy cập thông qua Dịch vụ. Người dùng Dịch vụ chỉ có thể sử dụng Nội dung cho mục đích cá nhân, phi thương mại của họ. Các doanh nghiệp, tổ chức hoặc pháp nhân khác không được phép trở thành Thành viên và không được phép sử dụng Dịch vụ vì bất kỳ mục đích nào, bao gồm nhưng không giới hạn việc thu thập tên người dùng và / hoặc địa chỉ email của Thành viên bằng phương tiện điện tử hoặc các phương tiện khác nhằm gửi email không mong muốn và đóng khung trái phép hoặc liên kết với Dịch vụ hoặc người dùng trên Dịch vụ. Vui lòng tham khảo Chính sách liên kết của chúng tôi để biết thêm thông tin về cách liên kết và sử dụng Nội dung.</string>
+
+    <string name="help_one">"Ping", "tốc độ tải xuống" và "tốc độ tải lên" là gì?</string>
+    <string name="help_two">Bản thân bài kiểm tra hoạt động như thế nào? Kết quả được tính như thế nào?</string>
+    <string name="help_three">Làm cách nào để tôi bắt đầu kiểm tra tốc độ?</string>
+    <string name="help_four">Mbps và kbps có nghĩa là gì?</string>
+    <string name="help_five">Tốc độ nào tôi cần cho Skype, Netflix, trò chơi điện tử, v.v.?</string>
+    <string name="help_six">Sử dụng Speedtest.net với trình chặn quảng cáo</string>
+
+    <string name="ping">Ping</string>
+    <string name="jitter">Jitter</string>
+    <string name="loss">Loss</string>
+
+    <string name="definitions">Các định nghĩa</string>
+    <string name="our_commitment_to_your_privacy">Cam kết của chúng tôi đối với quyền riêng tư của bạn</string>
+    <string name="links_to_other_websites">Liên kết đến các trang web khác</string>
+    <string name="speedtest_terms_conditions">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN TỐC ĐỘ</string>
+    <string name="linking_policy">Chính sách liên kết</string>
+    <string name="give_us_feedback_hint">Gửi lại cho chúng tôi phản hồi</string>
+    <string name="subject_of_email">Chủ đề của email</string>
+    <string name="no_connection">Không có kết nối</string>
+    <string name="send">Gửi</string>
+    <string name="share_mail">Speedtest là cách dứt khoát để đo lường hiệu suất internet của bạn. Với hàng tỷ người dùng đang hoạt động, speedtest là nhà lãnh đạo toàn cầu thống trị trong việc đo lường và đo lường hiệu suất Internet</string>
+    <string name="testing">Thử nghiệm</string>
+    <string name="running">Chương trình vẫn đang chạy</string>
+    <string name="download_error">Lỗi tải xuống...</string>
+    <string name="upload_error">Lỗi tải lên...</string>
+    <string name="ping_error">Lỗi ping...</string>
+    <string name="looking_for_server">Internet...</string>
+</resources>

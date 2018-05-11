@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textSize="@dimen/muoi_lam_sp"
+        android:id="@+id/tv_title_frag_speed"
+        android:text="@string/app_name"
+        android:textColor="@color/color_text_tab_speed"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_title"
+        android:background="@color/color_bg_bottombar"
+        android:layout_below="@+id/tv_title_frag_speed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bon_muoi_dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_ping"
+                android:layout_width="@dimen/muoi_lam_dp"
+                android:layout_height="@dimen/muoi_lam_dp" />
+
+            <TextView
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/tv_ping_frag_speed"
+                android:layout_marginLeft="@dimen/nam_dp"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/muoi_sp"
+                android:text="@string/ping"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/nam_dp"
+            android:layout_marginBottom="@dimen/nam_dp"
+            android:background="@color/color_divider"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_jitter"
+                android:layout_width="@dimen/muoi_lam_dp"
+                android:layout_height="@dimen/muoi_lam_dp" />
+
+            <TextView
+                android:id="@+id/tv_jitter_frag_speed"
+                android:layout_marginLeft="@dimen/nam_dp"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/muoi_sp"
+                android:text="@string/jitter"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/nam_dp"
+            android:layout_marginBottom="@dimen/nam_dp"
+            android:background="@color/color_divider"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/muoi_lam_dp"
+                android:layout_height="@dimen/muoi_lam_dp"
+                android:src="@drawable/ic_loss" />
+
+            <TextView
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/tv_loss_frag_speed"
+                android:layout_marginLeft="@dimen/nam_dp"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/muoi_sp"
+                android:text="@string/loss"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frame_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.github.anastr.speedviewlib.ImageSpeedometer
+                app:sv_indicatorWidth="@dimen/nam_dp"
+                app:sv_image="@drawable/bg_speed_complete"
+                app:sv_centerCircleColor="#3f3d48"
+                app:sv_indicatorColor="@color/color_indicator"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/speed_view"
+                android:layout_width="@dimen/tram_bay_dp"
+                android:layout_height="@dimen/tram_bay_dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/muoi_dp"
+                android:layout_marginTop="@dimen/muoi_dp"
+                app:sv_speedTextColor="@color/color_white"
+                app:sv_unitTextColor="@color/color_white"
+                app:sv_unitTextSize="@dimen/muoi_hai_sp"
+                app:sv_speedTextSize="@dimen/muoi_hai_sp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_result"
+            android:layout_below="@+id/frame_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_result_download_frag_speed"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/hai_muoi_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_speed_download"
+                        android:layout_width="@dimen/muoi_lam_dp"
+                        android:layout_height="@dimen/muoi_lam_dp" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textSize="@dimen/muoi_sp"
+                        android:textColor="@color/color_white"
+                        android:text="DOWNLOAD"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_unit_download_frag_speed"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="@dimen/muoi_sp"
+                        android:textColor="@color/color_white"
+                        android:text="Mbps"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_result_upload_frag_speed"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/hai_muoi_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/muoi_lam_dp"
+                        android:src="@drawable/ic_speed_upload" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textSize="@dimen/muoi_sp"
+                        android:textColor="@color/color_white"
+                        android:text="UPLOAD"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_unit_upload_frag_speed"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="@dimen/muoi_sp"
+                        android:textColor="@color/color_white"
+                        android:text="Mbps"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linear_result"
+            android:layout_marginTop="@dimen/muoi_dp"
+            android:id="@+id/img_go_frag_speed"
+            android:layout_gravity="center"
+            android:src="@drawable/btn_go"
+            android:layout_width="@dimen/hai_tram_dp"
+            android:layout_height="@dimen/bay_muoi_dp" />
+
+        <TextView
+            android:layout_below="@+id/img_go_frag_speed"
+            android:layout_marginTop="@dimen/muoi_dp"
+            android:gravity="center"
+            android:textSize="@dimen/muoi_sp"
+            android:padding="@dimen/nam_dp"
+            android:id="@+id/tv_alert_frag_speed"
+            android:textColor="@color/color_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/progress_bar"
+            android:background="@color/color_text_tab_speed"
+            android:min="0"
+            android:max="200"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

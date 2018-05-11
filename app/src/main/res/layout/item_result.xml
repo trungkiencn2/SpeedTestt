@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nam_muoi_dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_type_item_result"
+                android:layout_width="@dimen/hai_muoi_dp"
+                android:layout_height="@dimen/hai_muoi_dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/muoi_sp"
+            android:textColor="@color/color_white"
+            android:id="@+id/tv_date_item_result"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_white"
+            android:id="@+id/tv_download_item_result"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_white"
+            android:id="@+id/tv_upload_item_result"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/muoi_hai_sp"
+            android:textColor="@color/color_white"
+            android:id="@+id/tv_ping_item_result"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
